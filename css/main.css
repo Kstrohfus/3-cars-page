@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca+Display:wght@400;700&display=swap");
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    margin: 0;
+}
+
+.container {
+    height: 75%;
+    background-color: red;
+}
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    padding: 25px;
+}
+.sedan {
+    background-color: #e28525;
+    height: 250px;
+    margin: 100px 50px 0 50px;
+    border-top-left-radius: 5px;
+}
+
+.suv {
+    background-color: #016972;
+    height: 250px;
+    margin: 0 50px 0 50px;
+}
+
+.lux {
+    background-color: #00403f;
+    height: 250px;
+    margin: 0 50px 100px 50px;
+}
+
+img {
+    padding: 10px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+    text-align: center;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*Media*/
+@media (min-width: 1200px) {
+    body {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        flex-direction: row;
+    }
+}
